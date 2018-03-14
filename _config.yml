@@ -1,13 +1,13 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+title:          "Jinjoo's Devlog"
+description:    "JInjoo park's devlopment blog"
 baseurl:        ""
 url:            "https://perlpark.github.io"
 
 # Author
 author:
   name:         Jinjoo Park
-  url:          https://chester.how
+  url:          https://perlpark.github.io
   email:        chesterhow@gmail.com
 
 # Build settings
