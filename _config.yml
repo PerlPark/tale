@@ -1,7 +1,6 @@
 # Site settings
 title:          "Jinjoo's Devlog"
 description:    "JInjoo park's devlopment blog"
-baseurl:        ""
 url:            "https://perlpark.github.io"
 
 # Author
@@ -19,8 +18,7 @@ sass:
   style:        compressed
 
 # Gems
-plugins:
-  - jekyll-paginate
+plugins:        - jekyll-paginate
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
