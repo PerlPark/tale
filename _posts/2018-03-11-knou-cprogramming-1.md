@@ -46,13 +46,13 @@ ___
 ### 1. 예약어
 C언어에서 기본적으로 쓰임이 정의된 단어들이다. 사용자가 임의로 정의하는 함수 명으로 사용될 수 없다.
 
-- 자료형 관련 예약어
+1. 자료형 관련 예약어
  - char, int, float, short, long, double, unsigned, union, enum, void
-- 기억 관련 예약어
+2. 기억 관련 예약어
  - auto, static, extern, register, …
-- 제어 관련 예약어
+3. 제어 관련 예약어
  - if~else, for, while, do~while, switch~case, break, continue, return
-- 기타 예약어
+4. 기타 예약어
  - main, sizeof, include, …
  
 ___
