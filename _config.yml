@@ -1,5 +1,4 @@
 # Site settings
-<<<<<<< HEAD
 title:          "Jinjoo's Devlog"
 description:    "JInjoo park's devlopment blog"
 baseurl:        ""
@@ -8,19 +7,8 @@ url:            "https://perlpark.github.io"
 # Author
 author:
   name:         Jinjoo Park
-  url:          https://perlpark.github.io
-=======
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        ""
-url:            "https://chesterhow.github.io"
-
-# Author
-author:
-  name:         Chester How
   url:          https://chester.how
->>>>>>> 159decbf289c393eb287e5bcda18daf3cbc92e05
-  email:        chesterhow@gmail.com
+  email:        jinjoopark5@gmail.com
 
 # Build settings
 markdown:       kramdown
