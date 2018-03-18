@@ -18,9 +18,11 @@ sass:
   style:        compressed
 
 # Gems
+remote_theme: chesterhow/tale
+
+permalink:    /:year-:month-:day/:title
+paginate:     5
+
 plugins:
   - jekyll-paginate
-
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       2
+  - jekyll-remote-theme
