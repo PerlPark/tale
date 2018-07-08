@@ -1,21 +1,18 @@
-/*
 .container {
   margin: 0 auto;
   max-width: 800px;
-  width: 80%;
+  width: 100%;
 }
-*/
 
 .nav-container {
   display: block;
-  
 }
 
 main {
   display: block;
   float: right;
   max-width: 600px;
-  width: 80%;
+  width: 100%;
 }
 footer {clear:both;}
 
@@ -23,7 +20,7 @@ footer {clear:both;}
   box-shadow: 0 2px 2px -2px $shadow-color;
   float: left;
   max-width: 200px;
-  width: 80%;
+  width: 100%;
 
   &-container {
     margin: 1rem auto;
@@ -76,8 +73,6 @@ footer {clear:both;}
 .nav .profile {
   display: block;
   margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
 }
 .nav .profile img {
     width:150px;
