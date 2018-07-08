@@ -11,7 +11,16 @@ layout: default
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
     </div>
-    <section class="contact">
+    <div class="taglist">
+        <ul>
+            <li><a href="{{site.baseurl}}/tags/#UX_planning">#UX/Planning</a></li>
+            <li><a href="{{site.baseurl}}/tags/#avascript">#Javascript</a></li>
+            <li><a href="{{site.baseurl}}/tags/#MacOS">#MacOS</a></li>
+        </ul>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+   <section class="contact">
       <h3 class="contact-title">Contact me</h3>
       <ul>
        <!-- {% if site.social-twitter %}
@@ -41,8 +50,6 @@ layout: default
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
-  </header> <!-- End Header -->
-  <footer>
     <div class="copyright">
       <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
     </div>
