@@ -6,8 +6,13 @@ url:            "https://perlpark.github.io"
 # Author
 author:
   name:         Jinjoo Park
-  url:          https://chester.how
+  introduce:    웹에이전시에서 근무중인 기획자. 🌳🌻🍽🍝🥟🎵👩‍💻♻️ 관심있는 것이 너무 많아 힘듦.🙄
+  url:          http://jinjoo.me
   email:        jinjoopark5@gmail.com
+  facebook:     https://www.facebook.com/profile.php?id=100009151025883
+  twitter:      
+  instagram:    
+  naverblog:    http://blog.jinjoo.me
 
 # Build settings
 markdown:       kramdown

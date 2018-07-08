@@ -15,6 +15,14 @@
         </ul>
     </div>
   </nav>
+   
+    <div class="profile">
+        <ul>
+            <li><img src="{{ "/assets/profile_pic.png" | relative_url }}"></li>
+            <li>{{ site.author.name }}</li>
+            <li>{{ site.author.introduce }}</li>
+        </ul> 
+    </div>
 
     <main>
       {{ content }}
