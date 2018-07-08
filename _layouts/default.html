@@ -4,6 +4,7 @@
   {% include head.html %}
 
   <body>
+    <div class="container">
     <nav class="nav">
       <div class="nav-container">
         <a href="{{ site.baseurl }}/">
@@ -16,10 +17,10 @@
     </div>
     <div class="profile">
         <img src="{{ "/assets/profile_pic.jpg" | relative_url }}" />
-        {{ site.author.name }}
+        <p>{{ site.author.name }}</p>
         {{ site.author.introduce }}
     </div>
-  </nav>
+    </nav>
 
     <main>
       {{ content }}
@@ -30,5 +31,6 @@
         &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
       </span>
     </footer>
+      </div>
   </body>
 </html>
