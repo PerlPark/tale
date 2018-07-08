@@ -71,7 +71,10 @@ footer,
   max-width: 800px;
   width: 80%;
 }
-.nav .profile img {width:150px;}
+.nav .profile img {
+    width:150px;
+    border-radius:50%;
+}
 
 @media (min-width: 600px) {
   .nav {
@@ -88,7 +91,7 @@ footer,
 }
 
 footer {
-  font-family: $serif-secondary;
+  font-family: $sans-serif;
   padding: 2rem 0;
   text-align: center;
 
