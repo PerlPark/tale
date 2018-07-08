@@ -1000,6 +1000,20 @@ table tfoot td {
   margin: 0 0 10px;
 }
 
+.taglist ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.taglist ul li a {
+  color: #515151;
+  text-decoration: none;
+}
+.taglist ul li a:hover {
+  text-decoration: underline;
+}
+
 .content-box {
   padding: 20px;
   padding-left: 260px;
