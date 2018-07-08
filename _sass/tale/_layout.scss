@@ -35,6 +35,12 @@ footer,
       opacity: .6;
     }
   }
+  .nav .profile {
+    box-shadow: 0 2px 2px -2px $shadow-color;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 80%;
+  }
 
   ul {
     list-style-type: none;
