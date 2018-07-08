@@ -1,21 +1,29 @@
+/*
 .container {
   margin: 0 auto;
   max-width: 800px;
   width: 80%;
 }
+*/
 
-main,
-footer,
 .nav-container {
   display: block;
-  margin: 0 auto;
-  max-width: 800px;
+  
+}
+
+main {
+  display: block;
+  float: right;
+  max-width: 600px;
   width: 80%;
 }
+footer {clear:both;}
 
 .nav {
   box-shadow: 0 2px 2px -2px $shadow-color;
-  overflow: auto;
+  float: left;
+  max-width: 200px;
+  width: 80%;
 
   &-container {
     margin: 1rem auto;
