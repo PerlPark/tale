@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Jinjoo Park # add your name
 author-img: profile_pic.jpg # add your photo
-about-author: 웹에이전시에서 근무중인 기획자. 🌳🌻🍽🍝🥟🎵💻♻️ 관심있는 것이 너무 많아 힘듦.🙄
+about-author: 웹에이전시에서 근무중인 기획자. 💻프로그래밍 공부 중 🙄관심있는 게 너무 많아 힘듦
 social-twitter: # add your Twitter handle
 social-facebook: https://www.facebook.com/profile.php?id=10000915102588
 social-github: perlpark # add your Github handle
@@ -19,7 +19,7 @@ social-linkedin: # add your Linkedin handle
 social-email: # add your Email address
 
 # Disqus
-discus-identifier: disqus_S5PilIKcto # add your discus identifier
+discus-identifier: jinjoopark # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
