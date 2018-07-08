@@ -969,6 +969,7 @@ table tfoot td {
 }
 
 .about .author-name {
+.about .author-name {
   font-family: 'PT Serif', serif;
   margin: 0 0 10px;
   position: relative;
@@ -1298,8 +1299,6 @@ a.newer-posts:hover {
   padding: 5px 10px;
   margin-left: 5px;
   color: #263959;
-  text-transform: uppercase;
-  border: 1px solid #263959;
 }
 
 .page-footer .page-tag a:hover {
