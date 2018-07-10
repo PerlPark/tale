@@ -1,6 +1,6 @@
 title: 👩‍💻 Jinjoo's creativelog 🌟
 description: > # this means to ignore newlines until "baseurl:"
-  창의적인 활동을 좋아하는 한 기획자가 자신의 경험과 지식을 공유하는 블로그.
+  창의적인 활동을 좋아하는 한 기획자의 경험과 정보 공유 블로그
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Jinjoo Park # add your name
 author-img: profile_pic.jpg # add your photo
-about-author: 웹에이전시 근무 중인 기획자 based in South Korea.<br />💻 I can do HTML, CSS, Javascript and have been learning programming. 🙄 I'm passionate about the web, mobile, e-commerce, and all things creative.
+about-author: 웹에이전시 근무 중인 기획자 based in South Korea.<br />💻 I can do HTML, CSS, Javascript and have been learning programming. 💘 I'm passionate about the web, mobile, e-commerce, and all things creative.
 social-twitter: # add your Twitter handle
 social-facebook: 
 social-github: perlpark # add your Github handle

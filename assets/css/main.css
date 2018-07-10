@@ -988,15 +988,15 @@ table tfoot td {
           transform: translateX(-50%);
   bottom: 0;
   display: block;
-  width: 7px;
-  height: 7px;
+  width: 50px;
+  height: 1px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
   background-color: #515151;
 }
 
 .about p {
-  font-size: 16px;
+  font-size: 13px;
   margin: 0 0 10px;
 }
 
