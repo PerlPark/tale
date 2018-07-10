@@ -1001,8 +1001,19 @@ table tfoot td {
 }
 
 .taglist ul {
+  margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
+}
+
+.taglist ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.contact ul li:first-child {
+  margin-left: 0;
 }
 
 .taglist ul li a {
@@ -1108,7 +1119,7 @@ table tfoot td {
 }
 
 footer .copyright {
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
   margin: 0;
 }
