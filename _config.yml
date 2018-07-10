@@ -1,4 +1,4 @@
-title: Jinjoo's creativelog.
+title: 👩‍💻 Jinjoo's creativelog 🌟
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Jinjoo Park # add your name
 author-img: profile_pic.jpg # add your photo
-about-author: 웹에이전시에서 근무중인 기획자. 💻프로그래밍 공부 중 🙄관심있는 게 많아서 힘듦
+about-author: 웹에이전시 근무중인 기획자 💻 프로그래밍 공부 중 🙄 하고 싶은게 많아서 힘듦
 social-twitter: # add your Twitter handle
 social-facebook: 
 social-github: perlpark # add your Github handle
