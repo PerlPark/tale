@@ -988,7 +988,7 @@ table tfoot td {
           transform: translateX(-50%);
   bottom: 0;
   display: block;
-  width: 50px;
+  width: 15px;
   height: 1px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
@@ -1047,7 +1047,7 @@ table tfoot td {
 .contact .contact-title::before {
   content: "";
   display: block;
-  height: 2px;
+  height: 1px;
   width: -webkit-calc(50% - 48px);
   width: calc(50% - 48px);
   -webkit-transform: translateY(-50%);
@@ -1062,7 +1062,7 @@ table tfoot td {
 .contact .contact-title::after {
   content: "";
   display: block;
-  height: 2px;
+  height: 1px;
   width: -webkit-calc(50% - 48px);
   width: calc(50% - 48px);
   -webkit-transform: translateY(-50%);
