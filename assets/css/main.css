@@ -1225,7 +1225,7 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
   padding: 20px;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .header-page {
@@ -1418,6 +1418,7 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
+    line-height: 1.3;
   }
 }
 
