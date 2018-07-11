@@ -1418,7 +1418,7 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
-    line-height: 1;
+    line-height: 0;
   }
 }
 
@@ -1492,7 +1492,7 @@ a.newer-posts:hover {
     max-width: 100%;
 }
 .post .post-content .post-title a {
-    line-height: 1;
+    line-height: 0;
 }
 
 /* Extra Small Devices, Phones */
@@ -1526,6 +1526,6 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
-    line-height: 1;
+    line-height: 0;
   }
 }
