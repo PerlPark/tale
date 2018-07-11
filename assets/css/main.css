@@ -1028,6 +1028,7 @@ table tfoot td {
 }
 */
 .content-box {
+  word-break:break-all;
   padding: 20px;
   padding-left: 260px;
   display: -webkit-box;
@@ -1490,6 +1491,9 @@ a.newer-posts:hover {
     padding: 15px;
     max-width: 100%;
 }
+.post .post-content .post-title a {
+    line-height: 1;
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
@@ -1522,5 +1526,6 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
+    line-height: 1;
   }
 }
