@@ -10,13 +10,13 @@ tags: [Web] # add tag
 
 **웹폰트**란 웹페이지에서 기본 글꼴 대신에 다른 글꼴을 쓰고 싶을 때 사용하는 폰트입니다.  
   
-내 웹사이트에 적용한 폰트가 방문자의 컴퓨터에 이미 설치되어있다면 웹폰트를 사용하지 않아도 되지만, 폰트가 설치되지 않은 컴퓨터에선 기본 폰트로 보입니다. 그래서 <u>폰트를 웹사이트에 내장하여</u> 어느 컴퓨터에서든 내가 설정한 폰트로 보이게끔 하고 싶을 때, 웹폰트를 이용합니다.   
-   
----
+내 웹사이트에 적용한 폰트가 방문자의 컴퓨터에 이미 설치되어있다면 웹폰트를 사용하지 않아도 되지만, 폰트가 설치되지 않은 컴퓨터에선 기본 폰트로 보입니다. 그래서 <u>폰트를 웹사이트에 내장하여</u> 어느 컴퓨터에서든 내가 설정한 폰트로 보이게끔 하고 싶을 때, 웹폰트를 이용합니다.
+<br />
+<br />
 ### 오픈 라이선스 폰트를 사용해야 하는 이유
 우리가 폰트를 다운로드하면 흔히 받게 되는 ttf, otf 파일을 웹폰트 파일인 eot, woff 등으로 변환만 해주면 웹사이트에서 사용할 수 있습니다. <small>(※요즘엔 HTML과 CSS가 발전하여 그냥 ttf 파일을 사용해도 됩니다. 하지만 웹폰트보다는 무거워서 변환을 권장합니다.)</small> 방법이 쉬운 만큼, 맘에 드는 폰트 아무거나 내려받아 사용하면 된다고 쉽게 말할 수 있다면 참 좋겠지만... 대부분의 폰트가 라이선스 상, 웹폰트로 사용이 금지됩니다. (또는 별도의 계약 필요) 그러니 웬만하면 모든 용도로 허가된 오픈 라이선스 폰트를 사용하는 게 좋겠죠?   
-   
----
+<br />
+<br />
 ### 구글 폰트 (Google Fonts)
 <img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_1.png"><img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_2.png">   
 많이들 알고 계신 구글 폰트입니다.  
@@ -29,8 +29,8 @@ tags: [Web] # add tag
   
 <https://fonts.google.com/?selection.family=Lato&subset=korean>  
 <https://googlefonts.github.io/korean/>   
-   
----
+<br />
+<br />
 ### 스포카 한 산스 (Spoqa Han Sans)
 <img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_3.png"><img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_4.png">  
   
@@ -41,8 +41,8 @@ tags: [Web] # add tag
    
 본고딕 ) <https://fonts.google.com/earlyaccess#Noto+Sans+KR>  
 스포카 한 산스 ) <https://spoqa.github.io/spoqa-han-sans/ko-KR/>   
-   
----
+<br />
+<br />
 ### 그 외 웹폰트
   
 다른 분들께서 이미 정리해 준 웹폰트 리스트를 알려드립니다.  
@@ -53,8 +53,8 @@ tags: [Web] # add tag
   
 <https://github.com/gshn/fonts>  
 <small>출처) sir 커뮤니티 gshn님</small>   
-   
----
+<br />
+<br />
 ### 그 외 오픈 라이선스 일반 폰트 / 웹폰트로 변환 방법
   
 그 외 오픈 라이선스로 공개된 폰트를 간략하게 소개할게요. 그리고 일반 폰트를 웹폰트로 사용하시려면 변환을 해주시는 게 좋으니 자세하게 설명된 포스트를 링크합니다.  
@@ -70,8 +70,8 @@ tags: [Web] # add tag
   
 아리따 글꼴 (아리따 돋움 / 아리따 부리)  
 <http://www.apgroup.com/int/ko/about-us/visual-identity/arita-typeface.html>   
-   
----
+<br />
+<br />
 ### 웹폰트 사용에 대한 모든 것
   
 마지막으로, 포스트를 작성하려고 웹폰트에 대해 구글링을 해보다 발견한 글을 공유합니다.  
