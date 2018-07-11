@@ -1486,9 +1486,12 @@ a.newer-posts:hover {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  .content-box {
-    padding: 10px;
-    width: 98%;
+    .taglist {
+        padding:10px;
+    }
+    .content-box {
+    padding: 0;
+    width: 100%;
     max-width: 100%;
   }
   .post {
@@ -1513,4 +1516,11 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+}
+
+.article-page {
+    background-color: #fff;
+    width: 100%;
+    padding: 2%;
+    max-width: 100%;
 }
