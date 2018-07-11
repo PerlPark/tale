@@ -33,7 +33,6 @@ header,
 nav,
 section {
   display: block;
-  line-height: 1.15;
 }
 
 /**
@@ -933,6 +932,7 @@ table tfoot td {
   height: 100%;
   padding: 20px 10px;
   background-color: #ffffff;
+  line-height: 1.5;
 }
 
 .about {
@@ -1196,6 +1196,7 @@ footer .copyright {
 
 .post .post-content p {
   margin-top: 0;
+  line-height: 1.5;
 }
 
 a.older-posts, a.newer-posts {
