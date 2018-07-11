@@ -1461,7 +1461,7 @@ a.newer-posts:hover {
   }
     
   .content-box {
-    max-width: 480px;
+    max-width: 460px;
     padding: 20px 10px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1480,6 +1480,9 @@ a.newer-posts:hover {
         -ms-flex-align: stretch;
             align-items: stretch;
   }
+    .content-box img {
+        max-width: 460px;
+    }
   .contact-title, .copyright {
     display: none;
   }
