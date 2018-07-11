@@ -3,7 +3,7 @@ layout: post
 title: 저작권 걱정 없이 사용 가능한 웹폰트 소개
 date: 2018-07-10 23:50:00 +0300
 description: # Add post description (optional)
-img: open-license-web-font-1_1.png # Add image post (optional)
+img: ./post_img/open-license-web-font-1_1.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Web] # add tag
 ---
