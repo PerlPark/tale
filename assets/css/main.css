@@ -7,7 +7,6 @@
  *    IE on Windows Phone and in iOS.
  */
 html {
-  line-height: 1.15;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -34,6 +33,7 @@ header,
 nav,
 section {
   display: block;
+  line-height: 1.15;
 }
 
 /**
@@ -768,10 +768,6 @@ template {
           box-sizing: border-box;
 }
 
-html {
-  line-height: 1.5;
-}
-
 body {
   font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
   color: #515151;
@@ -890,6 +886,9 @@ table tfoot td {
 
 .post, .article-page {
   background-color: #fff;
+  width: 98%;
+  padding: 2%;
+  max-width: 98%;
 }
 
 ::-moz-selection {
@@ -1224,7 +1223,6 @@ a.newer-posts:hover {
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
-  padding: 20px;
   line-height: 1.7;
 }
 
