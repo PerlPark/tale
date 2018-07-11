@@ -1495,9 +1495,9 @@ a.newer-posts:hover {
     max-width: 100%;
   }
   .post {
-    width: 98%;
+    width: 97%;
     max-width: 100%;
-    margin: 2%;
+    margin: 3%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1521,6 +1521,6 @@ a.newer-posts:hover {
 .article-page {
     background-color: #fff;
     width: 100%;
-    padding: 2%;
+    padding: 10px;
     max-width: 100%;
 }
