@@ -1489,6 +1489,8 @@ a.newer-posts:hover {
 @media only screen and (max-width: 480px) {
   .content-box {
     padding: 10px;
+    width: 98%;
+    max-width: 100%;
   }
   .post {
     width: 98%;
@@ -1512,10 +1514,4 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
-}
-
-.article-page {
-    width: 98%;
-    max-width: 100%;
-    margin: 2%;
 }
