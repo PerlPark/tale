@@ -1,13 +1,6 @@
 ---
 layout: main
 ---
-<div class="taglist">
-    <ul class="tags">
-        <li><a href="{{site.baseurl}}/tags/#UX_planning">#UX/Planning</a></li>
-        <li><a href="{{site.baseurl}}/tags/#avascript">#Javascript</a></li>
-        <li><a href="{{site.baseurl}}/tags/#MacOS">#MacOS</a></li>
-    </ul>
-</div>
 {% for post in paginator.posts %}
 <article class="post">
   {% if post.img %}
@@ -22,5 +15,16 @@ layout: main
   </div>
 </article>
 {% endfor %}
+
+<div class="taglist">
+   <h2>Posts by category</h2>
+    <ul class="tags">
+<!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts...-->
+  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+    <li ><a href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }} <span>({{ site.tags[this_word].size }})</span></a></li>
+  {% endunless %}{% endfor %}
+  </ul>
+</div>
 
 {% include pagination.html %}

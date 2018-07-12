@@ -932,7 +932,6 @@ table tfoot td {
   height: 100%;
   padding: 20px 10px;
   background-color: #ffffff;
-  line-height: 1.5;
 }
 
 .about {
@@ -1225,7 +1224,6 @@ a.newer-posts:hover {
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
-  line-height: 1.7;
 }
 
 .header-page {
@@ -1490,6 +1488,9 @@ a.newer-posts:hover {
     width: 100%;
     padding: 15px;
     max-width: 100%;
+}
+.article-page .wrap-content {
+    line-height: 1.5;
 }
 .post .post-content .post-title a {
     line-height: 0;
