@@ -1175,6 +1175,7 @@ footer .copyright {
   font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
   text-decoration: none;
   color: #263959;
+  line-height: 0.9;
 }
 
 .post .post-content p {
