@@ -62,7 +62,7 @@ tags: [Web] # add tag
 <http://koreawebdesign.com/webfont/>  
 <small>출처) Korea Web Design 남반장님</small>   
    
-**오픈 라이선스 폰트**
+**오픈 라이선스 폰트**   
 순바탕  
 <http://font.kpipa.or.kr/>  
   
