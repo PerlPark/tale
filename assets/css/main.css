@@ -1322,9 +1322,7 @@ a.newer-posts:hover {
 
 .taglist {
     border-top:1px #ecf0f1 solid;
-    width: 97%;
-    max-width: 100%;
-    margin: 3%;
+    margin: 10px 0;
 }
 .taglist h3 {
     margin:10px 5px;
@@ -1464,7 +1462,7 @@ a.newer-posts:hover {
 }
 .taglist {
     width: 100%;
-    margin: 0.9%;
+    margin: 10px 0.9%;
 }
 
 /* Extra Small Devices, Phones */
@@ -1490,8 +1488,8 @@ a.newer-posts:hover {
   .post .post-content {
     width: 100%;
   }
-}
-.taglist {
+  .taglist {
     width: 97%;
-    margin: 3%;
+    margin: 10px 3%;
+  }
 }
