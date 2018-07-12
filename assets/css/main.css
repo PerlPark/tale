@@ -997,35 +997,7 @@ table tfoot td {
   font-size: 13px;
   margin: 0 0 10px;
 }
-/*
-.taglist ul {
-  margin: 0px 0px 25px 0px;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-}
 
-.taglist ul li {
-  display: inline-block;
-  margin-left: 10px;
-  border-radius: 7px;
-  padding: 3px 7px;
-  -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-          box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-}
-
-.taglist ul li:first-child {
-  margin-left: 0;
-}
-
-.taglist ul li a {
-  color: #515151;
-  text-decoration: none;
-}
-.taglist ul li a:hover {
-  text-decoration: underline;
-}
-*/
 .content-box {
   word-break:break-all;
   padding: 20px;
@@ -1175,7 +1147,7 @@ footer .copyright {
   font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
   text-decoration: none;
   color: #263959;
-  line-height: 0.9;
+  line-height: 0.8;
 }
 
 .post .post-content p {
@@ -1400,7 +1372,7 @@ a.newer-posts:hover {
     width: 100%;
   }
   .post .post-content .post-title {
-    margin: 0 0 5px;
+    margin: 0 0 10px;
   }
   .post .post-content .post-title a {
     font-size: 21px;
