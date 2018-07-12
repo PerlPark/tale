@@ -1044,6 +1044,11 @@ table tfoot td {
   background-color: #515151;
 }
 
+.contact a {
+    color: #515151;
+    text-align: center;
+}
+
 .contact ul {
   margin: 0;
   padding: 0;
@@ -1061,7 +1066,6 @@ table tfoot td {
 }
 
 .contact ul li a {
-  color: #515151;
   display: block;
   padding: 5px;
   font-size: 18px;
@@ -1288,6 +1292,7 @@ a.newer-posts:hover {
 }
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
+.container {width: 100%;}
 .blog-tags {
   width: 100%;
   background-color: #ffffff;
@@ -1312,8 +1317,8 @@ a.newer-posts:hover {
 }
 
 .taglist {
-    border-top:1px #515151 solid;
-    padding-top:10px;
+    border-top:1px #ccc solid;
+    width: 100%;
 }
 .taglist .tags {
   margin: 0;
