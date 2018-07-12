@@ -14,7 +14,8 @@ social-twitter: # add your Twitter handle
 social-facebook: 
 social-github: perlpark # add your Github handle
 social-linkedin: # add your Linkedin handle
-social-email: jinjoo_park@naver.com # add your Email address
+social-email: hello@jinjoo.me # add your Email address
+rss: feed.xml # add your Email address
 
 # Disqus
 discus-identifier: jinjoo # add your discus identifier

@@ -1141,7 +1141,7 @@ footer .copyright {
 .post .post-content .post-title {
   margin: 0 0 10px;
   font-weight: 400;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
 .post .post-content .post-title a {
@@ -1190,7 +1190,7 @@ a.newer-posts:hover {
 .header-page .page-title {
   font-weight: 400;
   margin: 0 0 10px;
-  line-height: 1.5;
+  line-height: 1.4em;
 }
 
 .header-page .page-date {
@@ -1373,7 +1373,6 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title {
     font-size: 21px;
-    line-height: 1.3em;
   }
 }
 

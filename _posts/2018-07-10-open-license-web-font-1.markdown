@@ -18,7 +18,7 @@ tags: [Web] # add tag
 <br />
 <br />
 ### 구글 폰트 (Google Fonts)
-<img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_1.png"><img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_2.png">   
+<img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_1.png" width="45%"><img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_2.png" width="45%">   
    
 많이들 알고 계신 구글 폰트입니다.  
 여러 언어의 웹폰트를 제공 중이고, 대부분의 오픈 라이선스 한글 폰트가 여기에서 제공되고 있습니다.  
@@ -33,7 +33,7 @@ tags: [Web] # add tag
 <br />
 <br />
 ### 스포카 한 산스 (Spoqa Han Sans)
-<img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_3.png"><img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_4.png">  
+<img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_3.png" width="45%"><img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_4.png" width="45%">  
   
 고딕체(Sans-serif) 중에 나눔 고딕 싫다면 대신 고려해 볼 만한 '스포카 한 산스'체 입니다.  
 구글과 어도비에서 합작 및 오픈 라이선스로 공유하여 큰 주목을 받았던 본고딕(Noto sans / Source Han Sans)을 개량하고 경량화한 폰트로, 웹에서 사용하기 적합합니다.  
@@ -45,7 +45,7 @@ tags: [Web] # add tag
 <br />
 <br />
 ### 눈누
-<img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_5.png"><img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_6.png">  
+<img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_5.png" width="45%"><img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_6.png" width="45%">  
   
 <span style="color:#ccc">뒤늦게 알게 되어 추가합니다!</span>   
 이 사이트 하나만 알고 있으면 될 정도로, 구글 폰트보다 더 많은 한글 웹폰트 자료를 갖고 있고 정리도 잘되어 있어 좋은 사이트입니다. 위에서 소개한 스포카 한 산스도 제공 중이며 BI/CI, 임베딩 등 사용범위 별 필터링 기능도 있어 편리합니다.   
