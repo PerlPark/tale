@@ -1142,6 +1142,7 @@ footer .copyright {
 .post .post-content {
   padding: 1rem;
   width: 70%;
+  line-height: 1.5em;
 }
 
 .post .post-content .post-date,
@@ -1152,7 +1153,6 @@ footer .copyright {
 .post .post-content .post-title {
   margin: 0 0 10px;
   font-weight: 400;
-  line-height: 1.4em;
 }
 
 .post .post-content .post-title a {
@@ -1163,7 +1163,6 @@ footer .copyright {
 
 .post .post-content p {
   margin-top: 0;
-  line-height: 1.5;
 }
 
 a.older-posts, a.newer-posts {
@@ -1190,9 +1189,6 @@ a.newer-posts:hover {
 }
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
-.wrap-content {
-}
-
 .header-page {
   text-align: center;
   margin: 10px 0;
@@ -1201,7 +1197,7 @@ a.newer-posts:hover {
 .header-page .page-title {
   font-weight: 400;
   margin: 0 0 10px;
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 .header-page .page-date {
