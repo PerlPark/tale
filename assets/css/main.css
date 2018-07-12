@@ -1030,6 +1030,7 @@ table tfoot td {
   word-break:break-all;
   padding: 20px;
   padding-left: 260px;
+    /*
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1046,6 +1047,7 @@ table tfoot td {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+    */
 }
 
 .contact .contact-title {
