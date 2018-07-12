@@ -1450,19 +1450,19 @@ a.newer-posts:hover {
   .contact-title, .copyright {
     display: none;
   }
-}
-.article-page {
+  .article-page {
     background-color: #fff;
     width: 100%;
     padding: 15px;
     max-width: 100%;
-}
-.article-page .wrap-content {
+  }
+  .article-page .wrap-content {
     line-height: 1.5;
-}
-.taglist {
+  }
+  .taglist {
     width: 100%;
     margin: 10px 0.9%;
+  }
 }
 
 /* Extra Small Devices, Phones */
