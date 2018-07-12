@@ -1429,7 +1429,25 @@ a.newer-posts:hover {
             border-radius: 100%;
     margin-bottom: 10px;
   }
-    
+  .post {
+    width: 48%;
+    max-width: 100%;
+    margin: 0 0.9% 1.5%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .post .post-thumbnail {
+    width: 100%;
+  }
+  .post .post-content {
+    width: 100%;
+  }
+  .post .post-content .post-title {
+    font-size: 21px;
+  }
   .content-box {
     padding: 20px 10px;
     display: -webkit-box;
