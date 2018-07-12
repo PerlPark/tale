@@ -889,6 +889,9 @@ table tfoot td {
   padding: 2%;
   max-width: 98%;
 }
+.article-page .wrap-content {
+    line-height: 1.5;
+}
 
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
@@ -1455,9 +1458,6 @@ a.newer-posts:hover {
     width: 100%;
     padding: 15px;
     max-width: 100%;
-  }
-  .article-page .wrap-content {
-    line-height: 1.5;
   }
   .taglist {
     width: 100%;
