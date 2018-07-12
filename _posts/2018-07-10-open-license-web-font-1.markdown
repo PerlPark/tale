@@ -61,8 +61,9 @@ tags: [Web] # add tag
 그 외 오픈 라이선스로 공개된 폰트를 간략하게 소개할게요. 그리고 일반 폰트를 웹폰트로 사용하시려면 변환을 해주시는 게 좋으니 자세하게 설명된 포스트를 링크합니다.  
 <http://koreawebdesign.com/webfont/>  
 <small>출처) Korea Web Design 남반장님</small>   
-   
+<br />
 **오픈 라이선스 폰트**   
+<br />
 순바탕  
 <http://font.kpipa.or.kr/>  
   
