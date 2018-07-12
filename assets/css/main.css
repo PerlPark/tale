@@ -234,7 +234,7 @@ textarea {
   /* 1 */
   font-size: 100%;
   /* 1 */
-  line-height: 1.15;
+  line-height: 1;
   /* 1 */
   margin: 0;
   /* 2 */
@@ -1403,7 +1403,6 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
-    line-height: 0;
   }
 }
 
@@ -1479,9 +1478,6 @@ a.newer-posts:hover {
 .article-page .wrap-content {
     line-height: 1.5;
 }
-.post .post-content .post-title a {
-    line-height: 0;
-}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
@@ -1514,6 +1510,5 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
-    line-height: 0;
   }
 }
