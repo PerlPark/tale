@@ -1044,9 +1044,12 @@ table tfoot td {
   background-color: #515151;
 }
 
-.contact > a {
+.contact p {
+    text-align: center;
+    font-size: 13px;
+}
+.contact p a {
     color: #515151;
-    margin:auto;
 }
 
 .contact ul {
@@ -1066,6 +1069,7 @@ table tfoot td {
 }
 
 .contact ul li a {
+  color: #515151;
   display: block;
   padding: 5px;
   font-size: 18px;
@@ -1318,11 +1322,11 @@ a.newer-posts:hover {
 
 .taglist {
     border-top:1px #ccc solid;
-    width: 96%;
+    width: 90%;
     margin:10px auto;
 }
 .taglist h3 {
-    margin:5px 0;
+    margin:0;
     padding:0;
 }
 .taglist .tags {
