@@ -1322,8 +1322,9 @@ a.newer-posts:hover {
 
 .taglist {
     border-top:1px #ccc solid;
-    width: 90%;
-    margin:10px auto;
+    width: 97%;
+    max-width: 100%;
+    margin: 3%;
 }
 .taglist h3 {
     margin:0;
@@ -1465,9 +1466,6 @@ a.newer-posts:hover {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-    .taglist {
-        padding:10px;
-    }
     .content-box {
     padding: 0;
     width: 100%;
