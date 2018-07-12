@@ -1321,14 +1321,13 @@ a.newer-posts:hover {
 }
 
 .taglist {
-    border-top:1px #ccc solid;
+    border-top:1px #ecf0f1 solid;
     width: 97%;
     max-width: 100%;
     margin: 3%;
 }
 .taglist h3 {
-    margin:0;
-    padding:0;
+    margin:10px 5px;
 }
 .taglist .tags {
   margin: 0;
@@ -1368,7 +1367,7 @@ a.newer-posts:hover {
 }
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
-/* Medium Devices, Desktops */
+/* Medium Devices, Desktops 
 @media only screen and (max-width: 992px) {
   .post {
     width: 48%;
@@ -1390,7 +1389,7 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
-
+*/
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .sidebar {
@@ -1463,6 +1462,10 @@ a.newer-posts:hover {
 .article-page .wrap-content {
     line-height: 1.5;
 }
+.taglist {
+    width: 100%;
+    margin: 0.9%;
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
@@ -1487,4 +1490,8 @@ a.newer-posts:hover {
   .post .post-content {
     width: 100%;
   }
+}
+.taglist {
+    width: 97%;
+    margin: 3%;
 }
