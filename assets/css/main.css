@@ -892,7 +892,7 @@ table tfoot td {
 .article-page .wrap-content {
     line-height: 1.5em;
 }
-.article-page .wrap-content img.c2 {
+.article-page .wrap-content .c2 {
     width:100%;
     max-width:50%;
 }
@@ -1512,6 +1512,6 @@ a.newer-posts:hover {
     margin: 10px 3%;
   }
 }
-.article-page .wrap-content img.c2 {
+.article-page .wrap-content .c2 {
     max-width:100%;
 }
