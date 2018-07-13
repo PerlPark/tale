@@ -893,6 +893,7 @@ table tfoot td {
     line-height: 1.5em;
 }
 .article-page .wrap-content img.c2 {
+    width:100%;
     max-width:50%;
 }
 
