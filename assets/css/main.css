@@ -916,13 +916,13 @@ table tfoot td {
 }
 .article-page .wrap-content dl dt {
     font-weight: bold;
+    margin:0 0 10px 0px;
 }
-.article-page .wrap-content dl dt, .article-page .wrap-content dl dd {
-    margin:5px 0px;
+.article-page .wrap-content dl dd {
+    margin:10px 0 0 10px;
     display: list-item;
     list-style-type: disc;
 }
-
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
   color: #ffffff;
