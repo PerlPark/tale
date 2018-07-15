@@ -919,9 +919,11 @@ table tfoot td {
     margin:0 0 10px 0px;
 }
 .article-page .wrap-content dl dd {
-    margin:10px 0 0 10px;
+    margin:10px 0 0 0;
     display: list-item;
-    list-style-type: disc;
+    list-style-type: circle;
+    list-style-position:inside;
+    padding-left:20px;
 }
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
