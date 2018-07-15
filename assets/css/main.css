@@ -919,7 +919,8 @@ table tfoot td {
 }
 .article-page .wrap-content dl dt, .article-page .wrap-content dl dd {
     margin:5px 0px;
-    list-style: circle;
+    display: list-item;
+    list-style-type: disc;
 }
 
 ::-moz-selection {
