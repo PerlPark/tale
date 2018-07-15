@@ -912,7 +912,7 @@ table tfoot td {
     max-width:70%;
 }
 .article-page .wrap-content dl {
-    margin:0 0 2.5em 0;
+    margin:-0.5em 0 2.5em 0;
 }
 .article-page .wrap-content dl dt {
     font-weight: bold;
