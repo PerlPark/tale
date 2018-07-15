@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 저작권 걱정 없이 사용 가능한 웹폰트 소개
+title: 2018 SW제품 시장성테스트 평가단에 지원했습니다
 date: 2018-07-15 01:00:00 +0300
 description: # Add post description (optional)
-img: open-license-web-font_1.png # Add image post (optional)
+img: ./post_img/2018-sw-prosumer-1_1.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [UI/UX] # add tag
 ---
