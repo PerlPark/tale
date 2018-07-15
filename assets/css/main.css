@@ -896,6 +896,10 @@ table tfoot td {
     width:100%;
     max-width:50%;
 }
+.article-page .wrap-content .w70 {
+    width:100%;
+    max-width:70%;
+}
 
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
@@ -1512,6 +1516,9 @@ a.newer-posts:hover {
     margin: 10px 3%;
   }
   .article-page .wrap-content .c2 {
+    max-width:100%;
+  }
+  .article-page .wrap-content .w70 {
     max-width:100%;
   }
 }
