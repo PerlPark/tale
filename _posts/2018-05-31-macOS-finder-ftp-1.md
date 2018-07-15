@@ -17,6 +17,6 @@ tags: [MacOS]
 3) FTP 서버 계정 정보를 입력하고 연결하면 끝.  
 4) 파인더에서 해당 서버의 파일들을 조회할 수 있다. 앞서 말한대로 업/다운로드는 불가능하다.  
   
-> ** 참고**  
+> ** 참고   
 https://kin.naver.com/qna/detail.nhn?d1id=1&dirId=10303&docId=240374881  
 http://egloos.zum.com/accuram/v/4665499
