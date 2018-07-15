@@ -24,8 +24,8 @@ tags: [Web] # add tag
 두 페이지 모두 HTML이나 CSS에 삽입하는 코드를 제공하여 웹폰트를 쉽게 사용할 수 있게 도와줍니다.  
 내 사이트의 서버나 호스팅에 폰트 파일을 올리지 않고 구글 서버에 저장된 폰트를 가져다 쓰는 방법인데, 많이들 추천하는 방법입니다. 왼쪽 사이트에선 "Family Selected", 오른쪽 사이트에선 "∨"버튼을 누르면 확인할 수 있습니다.<br/>
 <br/>
-<https://fonts.google.com/?selection.family=Lato&subset=korean>  
-<https://googlefonts.github.io/korean/>   
+<a href="https://fonts.google.com/?selection.family=Lato&subset=korean" target="_blank">https://fonts.google.com/?selection.family=Lato&subset=korean</a>  
+<a href="https://googlefonts.github.io/korean/" target="_blank">https://googlefonts.github.io/korean/</a>   
 
 ### 스포카 한 산스 (Spoqa Han Sans)
 <img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_3.png" class="c2"><img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_4.png" class="c2">  
@@ -34,16 +34,18 @@ tags: [Web] # add tag
 <br/>
 원래의 본고딕을 사용하고 싶다면 아래의 링크를 참고해주면 되는데, 개인적으로는 이 스포카 한 산스를 사용하는 걸 추천하고 싶네요. (제 깃허브 블로그도 스포카 한 산스를 적용했어요.'ㅂ')<br/>
 <br/>
-본고딕 ) <https://fonts.google.com/earlyaccess#Noto+Sans+KR>  
-스포카 한 산스 ) <https://spoqa.github.io/spoqa-han-sans/ko-KR/>   
+본고딕 ) <a href="https://fonts.google.com/earlyaccess#Noto+Sans+KR" target="_blank">https://fonts.google.com/earlyaccess#Noto+Sans+KR</a>  
+스포카 한 산스 ) <a href="https://spoqa.github.io/spoqa-han-sans/ko-KR/" target="_blank">https://spoqa.github.io/spoqa-han-sans/ko-KR/</a>   
 
 ### 눈누
 <img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_5.png" class="c2"><img src="{{site.baseurl}}/assets/post_img/open-license-web-font-1_6.png" class="c2">  
 <span style="color:#ccc">뒤늦게 알게 되어 추가합니다!</span>   
 이 사이트 하나만 알고 있으면 될 정도로, 구글 폰트보다 더 많은 한글 웹폰트 자료를 갖고 있고 정리도 잘되어 있어 좋은 사이트입니다. 위에서 소개한 스포카 한 산스도 제공 중이며 BI/CI, 임베딩 등 사용범위 별 필터링 기능도 있어 편리합니다.<br/>
 <br/>
-각 폰트의 상세페이지에 들어가면, 폰트 파일을 다운로드할 수 있는 공식 페이지 링크와 CSS 코드를 확인할 수 있고 웹, 모바일 매체에서 사용 가능하다는 라이선스 정책을 바로 확인할 수 있어 안심하고 사용할 수 있네요. :)  
-
+각 폰트의 상세페이지에 들어가면, 폰트 파일을 다운로드할 수 있는 공식 페이지 링크와 CSS 코드를 확인할 수 있고 웹, 모바일 매체에서 사용 가능하다는 라이선스 정책을 바로 확인할 수 있어 안심하고 사용할 수 있네요. :)<br/>
+<br/>
+<a href="http://noonnu.cc" target="_blank">http://noonnu.cc</a>  
+  
 ### 그 외 웹폰트
 눈누 사이트와 중복되는 폰트가 많지만, 사이트가 만들어지기 전 웹 제작 유저분들이 정성껏 정리한 자료라 소개합니다.<br/>
 <br/>
@@ -51,26 +53,26 @@ tags: [Web] # add tag
 <br/>
 ~~아리따 폰트는 별도의 내용을 작성해서 소개하고 싶었지만 공식 배포 페이지에서 웹폰트가 아니라 설치형 폰트만 제공하여 직접 변환해서 쓰셔야 합니다. 그러나 이미 다른 분들이 변환하여 공유해준 것이 있고, 이걸 쓰는 게 편리합니다. 아래 두 링크를 참고해주세요! :)~~<br/>
 <br/>
-<https://ludens.kr/coding/css/cdn-korean-web-font/>  
+<a href="https://ludens.kr/coding/css/cdn-korean-web-font/" target="_blank">https://ludens.kr/coding/css/cdn-korean-web-font/</a>   
 <small>출처) Ludens님</small><br/>
 <br/>
-<https://github.com/gshn/fonts>  
+<a href="https://github.com/gshn/fonts" target="_blank">https://github.com/gshn/fonts</a>   
 <small>출처) sir 커뮤니티 gshn님</small>   
 
 ### 그 외 오픈 라이선스 일반 폰트 / 웹폰트로 변환 방법
 그 외 오픈 라이선스로 공개된 폰트를 간략하게 소개할게요. 그리고 일반 폰트를 웹폰트로 사용하시려면 변환을 해주시는 게 좋으니 자세하게 설명된 포스트를 링크합니다.  
-<http://koreawebdesign.com/webfont/>  
+<a href="http://koreawebdesign.com/webfont/" target="_blank">http://koreawebdesign.com/webfont/</a>   
 <small>출처) Korea Web Design 남반장님</small>  
 <dl>
     <dt>오픈 라이선스 폰트</dt>
-    <dd>순바탕<br />http://font.kpipa.or.kr/</dd>
-    <dd>본명조 (Noto Serif / Source Han Serif)<br />https://source.typekit.com/source-han-serif/</dd>
-    <dd>아리따 글꼴 (아리따 돋움 / 아리따 부리)<br />http://www.apgroup.com/int/ko/about-us/visual-identity/arita-typeface.html</dd>
+    <dd>순바탕<br /><a href="http://font.kpipa.or.kr/" target="_blank">http://font.kpipa.or.kr/</a></dd>
+    <dd>본명조 (Noto Serif / Source Han Serif)<br /><a href="https://source.typekit.com/source-han-serif/" target="_blank">https://source.typekit.com/source-han-serif/</a></dd>
+    <dd>아리따 글꼴 (아리따 돋움 / 아리따 부리)<br /><a href="http://www.apgroup.com/int/ko/about-us/visual-identity/arita-typeface.html" target="_blank">http://www.apgroup.com/int/ko/about-us/visual-identity/arita-typeface.html</a></dd>
 </dl>  
 
 ### 웹폰트 사용에 대한 모든 것
 마지막으로, 포스트를 작성하려고 웹폰트에 대해 구글링을 해보다 발견한 글을 공유합니다.  
 개발자가 알아둬 봄 직한 내용, 웹폰트 적용 시 주의할 점 등 많은 내용이 있으니 프로덕트에  웹폰트를 사용할 예정이라면 한번 읽어 보시길 추천합니다 ^^<br/>
 <br/>
-<http://wit.nts-corp.com/2017/02/13/4258>  
+<a href="http://wit.nts-corp.com/2017/02/13/4258" target="_blank">http://wit.nts-corp.com/2017/02/13/4258</a>  
 <small>출처) WIT – NTS UIT BLOG 김원준님</small>
