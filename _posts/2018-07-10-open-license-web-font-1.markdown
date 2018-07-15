@@ -65,11 +65,11 @@ tags: [Web] # add tag
 <dl>
     <dt>오픈 라이선스 폰트</dt>
     <dd>순바탕  
-    <http://font.kpipa.or.kr/></dd>
+    http://font.kpipa.or.kr/</dd>
     <dd>본명조 (Noto Serif / Source Han Serif)  
-    <https://source.typekit.com/source-han-serif/></dd>
+    https://source.typekit.com/source-han-serif/</dd>
     <dd>아리따 글꼴 (아리따 돋움 / 아리따 부리)  
-        <http://www.apgroup.com/int/ko/about-us/visual-identity/arita-typeface.html></dd>
+        http://www.apgroup.com/int/ko/about-us/visual-identity/arita-typeface.html</dd>
 </dl>  
 
 ### 웹폰트 사용에 대한 모든 것
