@@ -11,7 +11,7 @@ tags: [UI/UX] # add tag
 <img src="{{site.baseurl}}/assets/post_img/2018-sw-prosumer-1_1.png">  
 <span style="color:RoyalBlue">정보통신산업진흥원(NIPA)의 "SW제품 시장성 테스트 및 개선 방안 수립"</span>사업의 일환으로 소프트웨어 사용성 평가자를 모집하고 있습니다.  
 <br />
-<img src="{{site.baseurl}}/assets/post_img/2018-sw-prosumer-1_3.png">  
+<img src="{{site.baseurl}}/assets/post_img/2018-sw-prosumer-1_3.png" class="c2">  
 저는 이 공고를 언젠가 포털사이트 광고를 통해 알게되었는데요.  
 평소에 제 주변에서 볼 수 있는 디지털 기기나 여러 서비스를 이용할 때, 사용성 측면에서 좋았던 점이나 개선해야할 점을 생각해 보는 게 재밌었던지라, 바로 지원하게 되었어요.
 
