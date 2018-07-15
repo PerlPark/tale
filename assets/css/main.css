@@ -911,11 +911,15 @@ table tfoot td {
     width:100%;
     max-width:70%;
 }
+.article-page .wrap-content dl {
+    margin:0 0 2.5em 0;
+}
 .article-page .wrap-content dl dt {
     font-weight: bold;
 }
 .article-page .wrap-content dl dt, .article-page .wrap-content dl dd {
     margin:5px 0px;
+    list-style: circle;
 }
 
 ::-moz-selection {

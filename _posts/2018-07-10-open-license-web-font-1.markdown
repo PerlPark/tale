@@ -63,12 +63,9 @@ tags: [Web] # add tag
 <small>출처) Korea Web Design 남반장님</small>  
 <dl>
     <dt>오픈 라이선스 폰트</dt>
-    <dd>순바탕  
-    http://font.kpipa.or.kr/</dd>
-    <dd>본명조 (Noto Serif / Source Han Serif)  
-    https://source.typekit.com/source-han-serif/</dd>
-    <dd>아리따 글꼴 (아리따 돋움 / 아리따 부리)  
-        http://www.apgroup.com/int/ko/about-us/visual-identity/arita-typeface.html</dd>
+    <dd>순바탕<br />http://font.kpipa.or.kr/</dd>
+    <dd>본명조 (Noto Serif / Source Han Serif)<br />https://source.typekit.com/source-han-serif/</dd>
+    <dd>아리따 글꼴 (아리따 돋움 / 아리따 부리)<br />http://www.apgroup.com/int/ko/about-us/visual-identity/arita-typeface.html</dd>
 </dl>  
 
 ### 웹폰트 사용에 대한 모든 것
