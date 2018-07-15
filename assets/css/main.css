@@ -892,6 +892,9 @@ table tfoot td {
 .article-page .wrap-content {
     line-height: 1.5em;
 }
+.article-page .wrap-content img {
+    margin:30px 0;
+}
 .article-page .wrap-content .c2 {
     width:100%;
     max-width:50%;
@@ -899,6 +902,12 @@ table tfoot td {
 .article-page .wrap-content .w70 {
     width:100%;
     max-width:70%;
+}
+.article-page .wrap-content dl dt {
+    font-weight: bold;
+}
+.article-page .wrap-content dl dt, .article-page .wrap-content dl dd {
+    margin:5px 0px;
 }
 
 ::-moz-selection {
