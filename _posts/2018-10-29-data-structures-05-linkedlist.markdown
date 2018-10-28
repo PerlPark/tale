@@ -31,6 +31,7 @@ tags: [자료구조, C Programming] # add tag
 그래도 이거 만들면서 어느정도 감은 잡은 듯... 어려웠지만 은근히 재밌었다. ㅇㅂㅇ  
   
 아래에 소스도 공개해본다. 맥OS Xcode에서 C로 프로그래밍했고, 200줄 정도 됩니당.
+<p>
 <code>
 //
 //  main.c
@@ -242,6 +243,7 @@ int main() {
     }
 }
 </code>
+</p>
 ** 참고 블로그   
 이해가 안되서, 오류가 생겨서 막혔던 부분은 아래 블로그를 참고했다.   
 <a href="https://blog.naver.com/simonmatthew/221304432762" target="_blank">https://blog.naver.com/simonmatthew/221304432762</a>   
