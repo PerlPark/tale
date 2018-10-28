@@ -16,11 +16,11 @@ tags: [자료구조, C Programming] # add tag
   
 <figure>
 <img src="{{site.baseurl}}/assets/post_img/data-structures-05-linkedlist_1.png">  
-<caption>head가 가르키는 노드에서 시작, 링크를 통해 데이터가 논리적인 순서로 연결된다.</caption>
+<figcaption>head가 가르키는 노드에서 시작, 링크를 통해 데이터가 논리적인 순서로 연결된다.</figcaption>
 </figure>
 <figure>
 <img src="{{site.baseurl}}/assets/post_img/data-structures-05-linkedlist_2.png">  
-<caption>메모리 공간에서의 모습 예시</caption>
+<figcaption>메모리 공간에서의 모습 예시</figcaption>
 </figure>
 <cite>삽화 참고: 자료구조, 정광식 저</cite>
 설명은 이쯤하고, 그래서 내가 만든 프로그램은 이렇다.  
@@ -31,8 +31,9 @@ tags: [자료구조, C Programming] # add tag
 그래도 이거 만들면서 어느정도 감은 잡은 듯... 어려웠지만 은근히 재밌었다. ㅇㅂㅇ  
   
 아래에 소스도 공개해본다. 맥OS Xcode에서 C로 프로그래밍했고, 200줄 정도 됩니당.
-<p>
-<code>
+
+
+~~~
 //
 //  main.c
 //  DataStructures_05_02
@@ -242,8 +243,7 @@ int main() {
         }
     }
 }
-</code>
-</p>
+~~~   
 ** 참고 블로그   
 이해가 안되서, 오류가 생겨서 막혔던 부분은 아래 블로그를 참고했다.   
 <a href="https://blog.naver.com/simonmatthew/221304432762" target="_blank">https://blog.naver.com/simonmatthew/221304432762</a>   
