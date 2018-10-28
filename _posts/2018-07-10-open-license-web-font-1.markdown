@@ -54,15 +54,15 @@ tags: [Web] # add tag
 ~~아리따 폰트는 별도의 내용을 작성해서 소개하고 싶었지만 공식 배포 페이지에서 웹폰트가 아니라 설치형 폰트만 제공하여 직접 변환해서 쓰셔야 합니다. 그러나 이미 다른 분들이 변환하여 공유해준 것이 있고, 이걸 쓰는 게 편리합니다. 아래 두 링크를 참고해주세요! :)~~<br/>
 <br/>
 <a href="https://ludens.kr/coding/css/cdn-korean-web-font/" target="_blank">https://ludens.kr/coding/css/cdn-korean-web-font/</a>   
-<small>출처) Ludens님</small><br/>
+<cite>출처) Ludens님</cite><br/>
 <br/>
 <a href="https://github.com/gshn/fonts" target="_blank">https://github.com/gshn/fonts</a>   
-<small>출처) sir 커뮤니티 gshn님</small>   
+<cite>출처) sir 커뮤니티 gshn님</cite>   
 
 ### 그 외 오픈 라이선스 일반 폰트 / 웹폰트로 변환 방법
 그 외 오픈 라이선스로 공개된 폰트를 간략하게 소개할게요. 그리고 일반 폰트를 웹폰트로 사용하시려면 변환을 해주시는 게 좋으니 자세하게 설명된 포스트를 링크합니다.  
 <a href="http://koreawebdesign.com/webfont/" target="_blank">http://koreawebdesign.com/webfont/</a>   
-<small>출처) Korea Web Design 남반장님</small>  
+<cite>출처) Korea Web Design 남반장님</cite>  
 <dl>
     <dt>오픈 라이선스 폰트</dt>
     <dd>순바탕<br /><a href="http://font.kpipa.or.kr/" target="_blank">http://font.kpipa.or.kr/</a></dd>
@@ -75,4 +75,4 @@ tags: [Web] # add tag
 개발자가 알아둬 봄 직한 내용, 웹폰트 적용 시 주의할 점 등 많은 내용이 있으니 프로덕트에  웹폰트를 사용할 예정이라면 한번 읽어 보시길 추천합니다 ^^<br/>
 <br/>
 <a href="http://wit.nts-corp.com/2017/02/13/4258" target="_blank">http://wit.nts-corp.com/2017/02/13/4258</a>  
-<small>출처) WIT – NTS UIT BLOG 김원준님</small>
+<cite>출처) WIT – NTS UIT BLOG 김원준님</cite>

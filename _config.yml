@@ -12,9 +12,11 @@ author-img: profile_pic.jpg # add your photo
 about-author: 웹에이전시 근무 중인 기획자 based in South Korea.<br />💻 I can do HTML, CSS, Javascript and have been learning programming. 💘 I'm passionate about the web, mobile, e-commerce, and all things creative.
 social-twitter: # add your Twitter handle
 social-facebook: 
+social-pinterest: jinjoo_park
 social-github: perlpark # add your Github handle
 social-linkedin: # add your Linkedin handle
 social-email: hello@jinjoo.me # add your Email address
+social-codepen: perlpark
 rss: feed.xml # add your Email address
 
 # Disqus
