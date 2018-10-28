@@ -16,11 +16,11 @@ tags: [자료구조, C Programming] # add tag
   
 <figure>
 <img src="{{site.baseurl}}/assets/post_img/data-structures-05-linkedlist_1.png">  
-<figcaption>head가 가르키는 노드에서 시작, 링크를 통해 데이터가 논리적인 순서로 연결된다.</figcaption>
+<figcaption style="text-align:center;font-size: 0.9em;">head가 가르키는 노드에서 시작, 링크를 통해 데이터가 논리적인 순서로 연결된다.</figcaption>
 </figure>
 <figure>
-<img src="{{site.baseurl}}/assets/post_img/data-structures-05-linkedlist_2.png">  
-<figcaption>메모리 공간에서의 모습 예시</figcaption>
+<img src="{{site.baseurl}}/assets/post_img/data-structures-05-linkedlist_2.png" class="c2">  
+<figcaption style="text-align:center;font-size: 0.9em;">메모리 공간에서의 모습 예시</figcaption>
 </figure>
 <cite>삽화 참고: 자료구조, 정광식 저</cite>
 설명은 이쯤하고, 그래서 내가 만든 프로그램은 이렇다.  
@@ -244,6 +244,7 @@ int main() {
     }
 }
 ~~~   
+   
 ** 참고 블로그   
 이해가 안되서, 오류가 생겨서 막혔던 부분은 아래 블로그를 참고했다.   
 <a href="https://blog.naver.com/simonmatthew/221304432762" target="_blank">https://blog.naver.com/simonmatthew/221304432762</a>   
