@@ -20,13 +20,15 @@ tags: [자료구조, C Programming] # add tag
 </figure>
 <figure style="text-align:center;">
 <img src="{{site.baseurl}}/assets/post_img/data-structures-05-linkedlist_2.png" style="max-width:225px;">  
-<figcaption style="text-align:center;font-size: 0.9em;">메모리 공간에서의 모습 예시</figcaption>
+<figcaption style="text-align:center;font-size: 0.9em;">
+    메모리 공간에서의 모습 예시  
+    <cite>삽화 참고: 자료구조, 정광식 저</cite>
+</figcaption>
 </figure>
-<cite>삽화 참고: 자료구조, 정광식 저</cite>  
 설명은 이쯤하고, 그래서 내가 만든 프로그램은 이렇다.  
 강의에서 나온 내용을 응용하여, 연결 리스트의 마지막에 데이터 삽입/삭제, 특정 위치에 삽입/삭제가 가능하게 했다.  
   
-<a href="http://blog.naver.com/jinjoo_park/221386894502" target="_blank">[exec 다운로드는 네이버 블로그에서]</a>  
+<a href="http://blog.naver.com/jinjoo_park/221386894502" target="_blank" class="attachments">[exec 다운로드는 네이버 블로그에서]</a>  
 <img src="{{site.baseurl}}/assets/post_img/data-structures-05-linkedlist_3.png">  
 배열/스택/큐 까지는 쉬운 편이었는데, 연결리스트 배우면서 멘붕했다.  
 그래도 이거 만들면서 어느정도 감은 잡은 듯... 어려웠지만 은근히 재밌었다. ㅇㅂㅇ  
