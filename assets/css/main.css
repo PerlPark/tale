@@ -171,7 +171,7 @@ cite {
   font-style: normal;
 }
 .attachments {text-align: center}
-.attachments a {padding:8px;border: 1px #ddd solid;color: black;}
+.attachments a {padding:7px 9px;border: 1px #ddd solid;color: #333030;text-decoration: none }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
