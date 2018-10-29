@@ -14,12 +14,12 @@ tags: [자료구조, C Programming] # add tag
   
 자료구조 중 연결리스트는 최대 메모리 공간을 미리 정하지 않고, <span style="color:red">메모리를 동적할당</span>하여 프로그램 실행 중에 <span style="color:red">노드(Node)가 추가될 때 마다 공간을 확보</span>한다. 노드(Node)는 데이터와 다음 데이터를 가르키는 링크의 한 덩어리로, <span style="color:red">메모리 공간에서의 물리적인 순서와 상관없이 데이터 간의 논리적인 순서</span>를 만들 수 있는 장점이 있다.  
   
-<figure>
+<figure style="text-align:center;">
 <img src="{{site.baseurl}}/assets/post_img/data-structures-05-linkedlist_1.png">  
 <figcaption style="text-align:center;font-size: 0.9em;">head가 가르키는 노드에서 시작, 링크를 통해 데이터가 논리적인 순서로 연결된다.</figcaption>
 </figure>
-<figure>
-<img src="{{site.baseurl}}/assets/post_img/data-structures-05-linkedlist_2.png" class="c2">  
+<figure style="text-align:center;">
+<img src="{{site.baseurl}}/assets/post_img/data-structures-05-linkedlist_2.png" style="max-width:225px;">  
 <figcaption style="text-align:center;font-size: 0.9em;">메모리 공간에서의 모습 예시</figcaption>
 </figure>
 <cite>삽화 참고: 자료구조, 정광식 저</cite>
