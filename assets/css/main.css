@@ -1047,6 +1047,9 @@ table tfoot td {
 .about nav a:hover {
   background-color: #FCE714;
 }
+.about nav a:visited {
+  color:#333030;
+}
 
 .content-box {
   word-break:break-all;
