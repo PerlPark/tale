@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
+
 # Author Settings
 author: Jinjoo Park # add your name
 author-img: profile_pic.jpg # add your photo
@@ -27,6 +28,7 @@ analytics: # Google Analytics
 
 # Build Settings
 markdown: kramdown
+highlighter: rouge
 plugins:
   - jekyll-sitemap
   - jekyll-paginate

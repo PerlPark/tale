@@ -8,8 +8,7 @@ fig-caption: # Add figcaption (optional)
 tags: [자료구조, C Programming] # add tag
 ---
 
-올해 초 부터 프로그래밍을 공부 중이다.  
-상반기에는 열심히 공부하고, 지금은 진도가 매우 더디지만.. ㅠ_ㅠ  
+올해 초 부터 프로그래밍을 공부 중이다. 상반기에는 열심히 공부하다가, 지금은 진도가 매우 더디지만..  
 그 중에 재밌게 공부하고 있는 자료구조에서 연결 리스트 배운 걸 응용하여 프로그램을 짜 봤다.  
   
 자료구조 중 연결리스트는 최대 메모리 공간을 미리 정하지 않고, <span style="color:red">메모리를 동적할당</span>하여 프로그램 실행 중에 <span style="color:red">노드(Node)가 추가될 때 마다 공간을 확보</span>한다. 노드(Node)는 데이터와 다음 데이터를 가르키는 링크의 한 덩어리로, <span style="color:red">메모리 공간에서의 물리적인 순서와 상관없이 데이터 간의 논리적인 순서</span>를 만들 수 있는 장점이 있다.  
@@ -26,15 +25,15 @@ tags: [자료구조, C Programming] # add tag
 </figcaption>
 </figure>
 
-설명은 이쯤하고, 그래서 내가 만든 프로그램은 이렇다.  
-강의에서 나온 내용을 응용하여, 연결 리스트의 마지막에 데이터 삽입/삭제, 특정 위치에 삽입/삭제가 가능하게 했다.  
+설명은 이쯤하고, 그래서 프로그램은 이렇다.  
+강의 내용을 응용하여 연결 리스트의 마지막에 데이터 삽입/삭제, 특정 위치에 삽입/삭제가 가능하다.  
   
 <div class="attachments"><a href="http://blog.naver.com/jinjoo_park/221386894502" target="_blank">exec 다운로드 _ Naverblog</a></div>
 <img src="{{site.baseurl}}/assets/post_img/data-structures-05-linkedlist_3.png">  
-배열/스택/큐 까지는 쉬운 편이었는데, 연결리스트 배우면서 멘붕했다.  
-그래도 이거 만들면서 어느정도 감은 잡은 듯... 어려웠지만 은근히 재밌었다. ㅇㅂㅇ  
+이해하기 쉬운 배열/스택/큐에서 갑자기 내용이 복잡해졌지만, 이거 만들면서 차차 이해해 나갔다.  
+어려웠지만 은근히 재밌었다. ^^  
   
-아래에 소스도 공개해본다. 맥OS Xcode에서 C로 프로그래밍했고, 200줄 정도 됩니당.
+아래는 소스코드이다. [Mac OS, Xcode에서 C로 개발]
 
 
 ~~~
@@ -247,9 +246,9 @@ int main() {
         }
     }
 }
-~~~   
-   
+~~~
+ 
 ** 참고 블로그   
-이해가 안되서, 오류가 생겨서 막혔던 부분은 아래 블로그를 참고했다.   
+이해가 안되거나 오류가 생겨서 막혔던 부분은 아래 블로그를 참고했다.   
 <a href="https://blog.naver.com/simonmatthew/221304432762" target="_blank">https://blog.naver.com/simonmatthew/221304432762</a>   
 <a href="https://massy2002.blog.me/12433974" target="_blank">https://massy2002.blog.me/12433974</a>
