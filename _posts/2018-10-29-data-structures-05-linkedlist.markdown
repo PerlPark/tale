@@ -36,7 +36,7 @@ tags: [자료구조, C Programming] # add tag
 아래는 소스코드이다. [Mac OS, Xcode에서 C로 개발]
 
 
-~~~
+~~~cpp
 //
 //  main.c
 //  DataStructures_05_02

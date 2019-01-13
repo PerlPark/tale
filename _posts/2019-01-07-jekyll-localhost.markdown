@@ -16,7 +16,7 @@ https://jekyllrb.com/docs/
 https://jamiekang.github.io/2017/04/28/working-jekyll-locally/
   
 1. 터미널에서 지킬블로그 디렉토리로 이동  
-2. "jekyll serve" 입력  
+2. "bundle exec jekyll serve" 입력  
 3. <a href="http://localhost:4000/" target="_blank">http://localhost:4000/</a>에 접속하면 로컬 디렉토리의 내용을 확인 가능
 
 <img src="{{site.baseurl}}/assets/post_img/jekyll-localhost_1.png">
@@ -42,7 +42,7 @@ https://blog.jungbin.kim/jekyll/2016/11/28/start-to-jekyll.html
 * "gem install bundler jekyll"을 입력하여 jekyll을 재설치해줍니다.  
 ※ 이전과 같은 오류가 난다면, 터미널을 재부팅해보세요.  
 
-* 그리고 "jekyll serve"를 입력하여 다시 테스트 해봅니다.
+* 그리고 "bundle exec jekyll serve"를 입력하여 다시 테스트 해봅니다.
 
 * 굵은 글씨로 "can't find gem bundler (>= 0.a) with executable bundle (Gem::GemNotFoundException)"라는 메세지가 출력된다면, "gem install bundler -v 1.16.1" 명령어로 bundler 1.16.1 버전을 설치 해보세요.  
 ※ 참고: https://stackoverflow.com/questions/47026174/find-spec-for-exe-cant-find-gem-bundler-0-a-gemgemnotfoundexception/47201709
