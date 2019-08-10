@@ -10,8 +10,8 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Jinjoo Park # add your name
 author-img: profile_pic.jpg # add your photo
-about-author: 💻 I can do HTML, CSS, Javascript and have been learning programming. 💘 I'm passionate about the web, mobile, e-commerce, and all things creative.
-social-twitter: perlpark
+about-author: 💻 I can do HTML, CSS, Javascript and have been learning programming. 💘 I'm passionate about the web, mobile and all things creative.
+social-twitter:
 social-pinterest: jinjoo_park
 social-github: perlpark # add your Github handle
 social-linkedin: # add your Linkedin handle
