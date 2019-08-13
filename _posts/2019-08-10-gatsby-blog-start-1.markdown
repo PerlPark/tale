@@ -14,7 +14,7 @@ tags: [Gatsby] # add tag
 
 우선은 공식 문서를 차근차근 따라가면서 만들어 보려고 한다.
 
----
+
 ### 첫 번째 준비: 패키지를 설치하고, 관리하기쉽게 해주는 Homebrew를 설치하자.
 https://www.gatsbyjs.org/tutorial/part-zero/#install-homebrew-for-nodejs
 
@@ -26,25 +26,24 @@ https://www.gatsbyjs.org/tutorial/part-zero/#install-homebrew-for-nodejs
 
 ** MacOS 유저라면, [여기](https://www.gatsbyjs.org/tutorial/part-zero/#mac-users-install-xcode-command-line-tools)를 참고하여 **Xcode Command Line Tools**도 설치해주자.
 
----
+
 ### 두 번째 준비: Node.js와 npm을 설치하자.
 https://www.gatsbyjs.org/tutorial/part-zero/#-install-nodejs-and-npm
 
-* Gatsby는 Node.js 기반에서 개발되었기 때문에 Node.js와 npm를 필수로 설치해야 한다.
-최신 버전을 권장하며, 최소 8 이상의 버전이 설치되어있어야 한다.
+* Gatsby는 Node.js 기반에서 개발되었기 때문에 Node.js와 npm를 필수로 설치해야 한다. 최신 버전을 권장하며, 최소 8 이상의 버전이 설치되어있어야 한다.
+
 1. 터미널을 열자.
 2. `brew update` 명령어를 입력하여, 홈브류를 최신버전으로 업데이트 한다.
 3. `node --version` 명령어를 입력하여 이미 설치되어있는지 확인하자.
     1. 노드가 설치되어있지 않다면, `brew install node` 명령어를 입력하여 설치한다. 이때 npm도 같이 설치가 된다.
     2. 홈브류를 통해 설치한 적이 없는데 버전 정보가 뜬다면, 다른 경로를 통해 이미 설치했을 가능성이 있다. 기존에 설치된 Node.js를 삭제하고 홈브류를 통해 다시 설치를 하거나, 본인에게 맞는 방식으로 셋팅을 해주자.  
-    >나는 다른 경로로 설치된 node를 삭제한 뒤 홈브류로 다시 설치했다.
-https://www.theteams.kr/teams/35/post/67342
-
+    >나는 다른 경로로 설치된 node를 삭제한 뒤 홈브류로 다시 설치했다.  
+    >https://www.theteams.kr/teams/35/post/67342
     3. (선택사항) 홈브류를 통해 설치된 노드가 있을 경우엔 버전을 업그레이드 해준다.
 
 ** Git도 아직 설치하지 않았다면 [여기](https://www.gatsbyjs.org/tutorial/part-zero/#install-git)를 참고하여 운영체제에 맞게 설치해주자.
 
----
+
 ### 세 번째 준비: Gatsby CLI를 설치하자.
 https://www.gatsbyjs.org/tutorial/part-zero/#using-the-gatsby-cli
 
