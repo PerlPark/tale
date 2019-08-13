@@ -937,7 +937,6 @@ footer .copyright {
 
 .post .post-content {
   padding: 1rem;
-  width: 70%;
 }
 
 .post .post-content .post-date,
@@ -992,8 +991,9 @@ a.newer-posts:hover {
 
 .header-page .page-title {
   font-weight: 400;
-  margin: 0 0 10px;
+  margin: 0 1.5em 10px;
   line-height: 1.5em;
+  word-break: keep-all;
 }
 
 .header-page .page-date {
@@ -1236,8 +1236,14 @@ a.newer-posts:hover {
   .post .post-content {
     width: 100%;
   }
+  .header-page .page-title {
+    font-weight: 400;
+    margin: 0 0 10px;
+    line-height: 1.5em;
+  }
   .post .post-content .post-title {
     font-size: 21px;
+    margin: 0 0 10px;
   }
   .content-box {
     padding: 20px 10px;
