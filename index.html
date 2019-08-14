@@ -5,9 +5,10 @@ layout: main
 <article class="post">
   {% if post.img %}
     <a class="post-thumbnail" style='background-image: url({{"/assets/" | prepend: site.baseurl | append : post.img}});' href="{{post.url | prepend: site.baseurl}}"></a>
+    <div class="post-content-withImage">
   {% else %}
+    <div class="post-content">
   {% endif %}
-  <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
     <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
     <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
@@ -17,4 +18,3 @@ layout: main
 {% endfor %}
 {% include pagination.html %}
 {% include tagslist.html %}
-  

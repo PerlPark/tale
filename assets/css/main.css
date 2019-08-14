@@ -635,15 +635,16 @@ table tfoot td {
   position: relative;
 }
 
-.post, .article-page {
+.article-page {
   background-color: #fff;
-  width: 97%;
+  width: 100%;
   padding: 3%;
-  max-width: 97%;
+  max-width: 100%;
 }
 /* Post Style */
 .article-page .wrap-content {
     line-height: 1.8em;
+    word-wrap: break-word;
     word-break: keep-all;
 }
 .article-page .wrap-content h3 {
@@ -925,6 +926,7 @@ footer .copyright {
   transition: all .3s ease;
   -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
           box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+  background-color: #fff;
 }
 
 .post:hover {
@@ -936,36 +938,41 @@ footer .copyright {
 }
 
 .post .post-thumbnail {
-  width: 30%;
+  width: 25%;
   max-width: 100%;
-  min-height: 11rem;
+  min-height: 12rem;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: 50% 50%;
 }
 
-.post .post-content {
-  padding: 1rem;
+.post .post-content, .post .post-content-withImage {
+  padding: 1.5rem 1.8rem;
+}
+.post .post-content-withImage {
+  max-width: 75%;
 }
 
-.post .post-content .post-date,
-.post .post-content .post-words {
+
+.post .post-date,
+.post .post-words {
   font-size: 12px;
 }
 
-.post .post-content .post-title {
+.post .post-title {
   margin: 0 0 10px;
   font-weight: 400;
   line-height: 1.5em;
 }
 
-.post .post-content .post-title a {
+.post .post-title a {
   font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
   text-decoration: none;
   color: #263959;
 }
 
-.post .post-content p {
+.post p {
+  font-size:0.9em;
   margin-top: 0;
 }
 
@@ -1002,6 +1009,7 @@ a.newer-posts:hover {
   font-weight: 400;
   margin: 0 1.5em 10px;
   line-height: 1.5em;
+  word-wrap: break-word;
   word-break: keep-all;
 }
 
@@ -1168,31 +1176,9 @@ a.newer-posts:hover {
 }
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
-/* Medium Devices, Desktops 
-@media only screen and (max-width: 992px) {
-  .post {
-    width: 48%;
-    max-width: 100%;
-    margin: 0 0.9% 1.5%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .post .post-thumbnail {
-    width: 100%;
-  }
-  .post .post-content {
-    width: 100%;
-  }
-  .post .post-content .post-title {
-    font-size: 21px;
-  }
-}
-*/
+/* Medium Devices, Desktops */
 /* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1120px) {
   .sidebar {
     position: relative;
     display: -webkit-box;
@@ -1242,15 +1228,11 @@ a.newer-posts:hover {
   .post .post-thumbnail {
     width: 100%;
   }
-  .post .post-content {
+  .post .post-content, .post .post-content-withImage {
+    max-width: 100%;
     width: 100%;
   }
-  .header-page .page-title {
-    font-weight: 400;
-    margin: 0 0 10px;
-    line-height: 1.5em;
-  }
-  .post .post-content .post-title {
+  .post .post-title {
     font-size: 21px;
     margin: 0 0 10px;
   }
@@ -1309,7 +1291,7 @@ a.newer-posts:hover {
   .post .post-thumbnail {
     width: 100%;
   }
-  .post .post-content {
+  .post .post-content, .post .post-content-withImage {
     width: 100%;
   }
   .taglist {

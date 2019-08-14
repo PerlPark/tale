@@ -3,7 +3,7 @@ layout: post
 title: "코드스테이츠 Pre course 4주차 수강 후기: 나는 이렇게 자기주도 학습을 하고 있다."
 date: 2019-08-14 14:30:00 +0900
 description: # Add post description (optional)
-img: # Add image post (optional)
+img: ./post_img/code-states-pre-course-review-1-thumbnail.jpg
 fig-caption: # Add figcaption (optional)
 tags: [Essay] # add tag
 ---
@@ -41,10 +41,10 @@ tags: [Essay] # add tag
 
 ### 03_이런 결과물을 쌓아가고 있다.
 1. **에버노트 학습 메모**
+<img src="{{site.baseurl}}/assets/post_img/code-states-pre-course-review-1-1.png">
     * 예전부터 써왔지만, 코드스테이츠를 시작하고 더 많이 사용하게 됐다.
     * 주로 공부 중 깨달은 것들을 메모하는데, 짧게 키워드만 나열하기도 하고, 코드를 통째로 가져와 저장해 놓기도 했다. 에버노트의 태그나 검색 기능이 제법 쓸만해서 이렇게 저장해 놓으면 잊어버린 내용을 쉽게 다시 찾기 편리하다.
     * 언제든 블로그에 포스팅할 수 있게 최대한 다듬어서 작성해 놓기도 했다! 최근 포스팅한 내용들과 TIL 일기들은 다 여기서 작성하고 마크다운으로 옮겨 업로드 한 거다.  
-    <img src="{{site.baseurl}}/assets/post_img/code-states-pre-course-review-1-1.png">
 
 2. **테크 블로그**
     * Github Issues ([LINK](https://github.com/PerlPark/Code-State-Study/issues))
@@ -67,10 +67,11 @@ tags: [Essay] # add tag
         https://perlpark.github.io/2019-08-11-TIL/
 
   3. **일정 관리용 노션**
+  <img src="{{site.baseurl}}/assets/post_img/code-states-pre-course-review-1-2.png">
       * 위에서 적었듯, 일정 관리 페이지를 만들었다.
       * 코드스테이츠에서 제공해주는 스케줄 캘린더가 있긴 하지만, 나만의 과제 제출 일정 등을 관리하면 좋을 것 같아 아래처럼 정리하고 있다.
       * 트렐로와 같이 보드 타입을 기본으로 보고, 추가로 캘린더  View 타입을 만들어서 번갈아 보고 있다.  
-      <img src="{{site.baseurl}}/assets/post_img/code-states-pre-course-review-1-2.png">
+      
 
 
 
