@@ -680,6 +680,7 @@ table tfoot td {
 }
 .article-page .wrap-content ol li ul {
   padding-bottom:10px;
+  padding-left: 22px;
 }
 
 
@@ -1269,6 +1270,13 @@ a.newer-posts:hover {
     width: 100%;
     margin: 10px 0.9%;
   }
+  .header-page .page-title {
+    margin: 0 0em 10px;
+  }
+  .article-page .wrap-content ol {
+    padding-inline-start: 20px;
+  }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -1303,5 +1311,8 @@ a.newer-posts:hover {
   }
   .article-page .wrap-content .w70 {
     max-width:100%;
+  }
+  .article-page .wrap-content ol li ul{
+    padding-left: 10px;
   }
 }
