@@ -1232,6 +1232,7 @@ a.newer-posts:hover {
   .post .post-content, .post .post-content-withImage {
     max-width: 100%;
     width: 100%;
+    padding: 1.2rem 1.4rem;
   }
   .post .post-title {
     font-size: 21px;
