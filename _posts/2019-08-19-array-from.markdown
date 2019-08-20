@@ -25,7 +25,7 @@ function f() {
 }
 f(1, 2, 3); // -> [1, 2, 3]
 ```
-**그리고 특정 길이의 배열을 만들어 연속된 수를 넣을 수도 있습니다.** ([참고](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/from#%EC%8B%9C%ED%80%80%EC%8A%A4_%EC%83%9D%EC%84%B1%EA%B8%B0(range)))  
+**그리고 특정 길이의 배열을 만들어 연속된 수를 넣을 수도 있습니다.** ([참고](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/from#%EC%8B%9C%ED%80%80%EC%8A%A4_%EC%83%9D%EC%84%B1%EA%B8%B0(range)){: target="_blank" })  
 아래 코드에서 length 길이와, 배열의 값이 되는 i에 수를 더하거나 빼주면 내가 원하는 범위의 연속된 수로 이뤄진 배열이 만들어집니다.
 ```js
 Array.from({length: 5}, (v, i) => i); // [0, 1, 2, 3, 4]
@@ -36,11 +36,9 @@ Array.from({length: 7}, (v, i) => i-3); // [-3, -2, -1, 0, 1, 2, 3]
 ### 첫 째로, {length: x}는 x 길이의 유사 배열 객체를 생성합니다.
 
 콘솔에서 일반 배열의 값을 열어보면 `인덱스`와 `값`, `length` 속성을 확인할 수 있는데요, 이 구성으로 객체를 만든 것이 유사 배열 객체입니다.
-배열처럼 `obj[0]`, `obj[1]`, `obj.length`와 같은 참조가 가능하지만, 배열이 아닌 객체라는 겁니다.
+배열처럼 `obj[0]`, `obj[1]`, `obj.length`와 같은 참조가 가능하지만, 배열이 아닌 객체라는 겁니다. ([참고 이미지]({{site.baseurl}}/assets/post_img/array-from-1.png){: target="_blank" })
 
-<img src="{{site.baseurl}}/assets/post_img/array-from-1.png">
-
-그리고 이 유사 배열 객체에 `length` 값만 입력해주었으니, `Array.from` 메서드에서 값은 `undefined`로 채워진 배열을 반환해줍니다.
+그리고 이 유사 배열 객체에 `length` 값만 입력해주었으니, `Array.from` 메서드가 값은 `undefined`로 채워진 배열을 반환해줍니다.
 
 <img src="{{site.baseurl}}/assets/post_img/array-from-2.png">
 
@@ -55,7 +53,8 @@ Array.from({length: 7}, (v, i) => i-3); // [-3, -2, -1, 0, 1, 2, 3]
 arr.map(callback(currentValue[, index[, array]])[, thisArg])
 ```
 그러므로 `Array.from` 메서드에서도 인덱스를 참조하려면 **두 개의 매개변수가 필요**합니다.  
-그리고 **인덱스를 참조하는 매개변수를 새로운 배열의 값으로 반환**해주면 만들고자 했던 배열을 볼 수 있습니다!
+그리고 **인덱스를 참조하는 매개변수를 새로운 배열의 값으로 반환**해주세요.  
+만들고자 했던 배열을 볼 수 있습니다!
 
 <img src="{{site.baseurl}}/assets/post_img/array-from-3.png">  
 
@@ -75,5 +74,5 @@ Array.from({length: 5}, function(value, index){
 코드스테이츠에서 알고리즘 퀴즈를 여러가지 방법으로 풀어보다가 Array.from 메서드를 써보게 되었는데,
 어떤 원리로 값이 만들어지는지 코드만 봐서는 이해가 안되어서 포스팅을 작성하게 되었습니다.
 
-아래 스택오버플로우의 글과 mdn을 참고했습니다.
+아래 스택오버플로우의 글과 mdn을 참고했습니다.  
 https://stackoverflow.com/questions/40528557/how-does-array-fromlength-5-v-i-i-work
