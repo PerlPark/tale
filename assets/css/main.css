@@ -631,7 +631,7 @@ table tfoot td {
 }
 
 .wrapper {
-  max-width: 1250px;
+  max-width: 1920px;
   position: relative;
 }
 
@@ -1275,7 +1275,7 @@ a.newer-posts:hover {
     margin: 0 0em 10px;
   }
   .article-page .wrap-content ol {
-    padding-inline-start: 20px;
+    padding-inline-start: 1em;
   }
 
 }
@@ -1314,6 +1314,6 @@ a.newer-posts:hover {
     max-width:100%;
   }
   .article-page .wrap-content ol li ul{
-    padding-left: 10px;
+    padding-left: 0.5em;
   }
 }
