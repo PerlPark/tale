@@ -1274,8 +1274,9 @@ a.newer-posts:hover {
   .header-page .page-title {
     margin: 0 0em 10px;
   }
-  .article-page .wrap-content ol {
-    padding-inline-start: 1em;
+  .article-page .wrap-content ol, 
+  .article-page .wrap-content ul {
+    padding-left: 1em;
   }
 
 }
