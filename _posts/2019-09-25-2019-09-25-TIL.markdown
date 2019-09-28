@@ -16,19 +16,19 @@ tags: [TIL, Javascript] # add tag
 
 간단히 설명하자면, 내 웹페이지와 API의 서버가 다르기 때문에 자료를 요청할 수 없다는 것이다.
 
-자바스크립트의 표준 스펙에는 다른 출처(서버)로의 요청을 허용하지 않는 **동일 출처 정책**<sub>Same-Origin Policy</sub>이 있는데, 이 정책이 API를 사용하는 데 불편함을 유발하다보니 크로스 도메인을 허용하는 **CORS** 정책이 추가됐다고 한다. 하지만 공공 API는 그럼에도 자료를 요청할 수 없었던 거다.
-> https://brunch.co.kr/@adrenalinee31/1
+자바스크립트의 표준 스펙에는 다른 출처(서버)로의 요청을 허용하지 않는 **동일 출처 정책**<sub>Same-Origin Policy</sub>이 있는데, 이 정책이 API를 사용하는 데 불편함을 유발하다보니 크로스 도메인을 허용하는 **CORS** 정책이 추가됐다고 한다. 하지만 그럼에도 공공 API 자료는 요청할 수 없었던 거다.
+> [https://brunch.co.kr/@adrenalinee31/1](https://brunch.co.kr/@adrenalinee31/1){: target="_blank" }
 
 [<img src="{{site.baseurl}}/assets/post_img/2019-09-25-1.png">]({{site.baseurl}}/assets/post_img/2019-09-25-1.png){: target="_blank" }
 
-이를 해결하는 방법으로 API를 제공하는 서버 쪽에서 모든 도메인을 허용하도록 '응답 헤더'를 사용할 수 있지만, 공공 API의 서버를 수정할 수는 없기에 가능한 방법이 아니었다.
+이를 해결하는 방법으로 API를 제공하는 서버 쪽에서 모든 도메인을 허용하도록 '응답 헤더'를 추가할 수 있지만, 공공 API의 서버를 수정할 수는 없기에 가능한 방법이 아니었다.
 
 Ajax를 통한 우회 방법인 [xdomainajax](https://j11y.io/javascript/cross-domain-requests-with-jquery/){: target="_blank" } 라이브러리와, [AJAX Cross Origin](https://www.isgoodstuff.com/2012/07/22/cross-domain-xml-using-jquery/){: target="_blank" } 플러그인도 사용해봤지만 성공하지 못했다.
 
 그리고 계속해서 해결책을 찾기 위해 검색을 하다가 공공 데이터 포털의 질문글을 보게되었다.
 [https://www.data.go.kr/information/QNA_0000000000014129/qna.do](https://www.data.go.kr/information/QNA_0000000000014129/qna.do){: target="_blank" }
 
-관리자 답변의 자료에 따르면 문서가 API 서버와 직접 통신을 하지는 못하고, 동일 도메인 내 서버가 API 서버와 통신을 하며 문서에 자료를 넘겨 주는 방식으로 개발해야 한다는 것이었다.
+관리자 답변의 자료에 따르면 문서가 API 서버와 직접 통신을 하지는 못하고, 동일 도메인 내 서버가 API 서버와 통신을 하며 자료를 문서에 넘겨 주는 방식으로 개발해야 한다는 내용이었다.
 
 [<img src="{{site.baseurl}}/assets/post_img/2019-09-25-2.png">]({{site.baseurl}}/assets/post_img/2019-09-25-2.png){: target="_blank" }
 
