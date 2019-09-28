@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2019/08/29 TIL(Today I Learn) - Currying 함수에서 arguments, rest parameter 사용하기"
+title: "2019/09/23 TIL(Today I Learn) - Currying 함수에서 arguments, rest parameter 사용하기"
 date: 2019-09-23 23:55:55 +0900
 description: # Add post description (optional)
 img: # Add image post (optional)
